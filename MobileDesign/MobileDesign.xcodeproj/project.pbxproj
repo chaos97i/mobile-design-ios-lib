@@ -11,6 +11,10 @@
 		8CB7FE3B2B1F6BB200712B23 /* MobileDesign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB7FE302B1F6BB200712B23 /* MobileDesign.framework */; };
 		8CB7FE402B1F6BB200712B23 /* MobileDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB7FE3F2B1F6BB200712B23 /* MobileDesignTests.swift */; };
 		8CB7FE412B1F6BB200712B23 /* MobileDesign.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB7FE332B1F6BB200712B23 /* MobileDesign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CB7FE512B1F6C9A00712B23 /* MobileDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB7FE502B1F6C9A00712B23 /* MobileDesignApp.swift */; };
+		8CB7FE532B1F6C9A00712B23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB7FE522B1F6C9A00712B23 /* ContentView.swift */; };
+		8CB7FE552B1F6C9C00712B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB7FE542B1F6C9C00712B23 /* Assets.xcassets */; };
+		8CB7FE592B1F6C9C00712B23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB7FE582B1F6C9C00712B23 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,12 @@
 		8CB7FE342B1F6BB200712B23 /* MobileDesign.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MobileDesign.docc; sourceTree = "<group>"; };
 		8CB7FE3A2B1F6BB200712B23 /* MobileDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileDesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB7FE3F2B1F6BB200712B23 /* MobileDesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDesignTests.swift; sourceTree = "<group>"; };
+		8CB7FE4E2B1F6C9A00712B23 /* MobileDesignApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDesignApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB7FE502B1F6C9A00712B23 /* MobileDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDesignApp.swift; sourceTree = "<group>"; };
+		8CB7FE522B1F6C9A00712B23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CB7FE542B1F6C9C00712B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB7FE562B1F6C9C00712B23 /* MobileDesignApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MobileDesignApp.entitlements; sourceTree = "<group>"; };
+		8CB7FE582B1F6C9C00712B23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CB7FE4B2B1F6C9A00712B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +72,7 @@
 			children = (
 				8CB7FE322B1F6BB200712B23 /* MobileDesign */,
 				8CB7FE3E2B1F6BB200712B23 /* MobileDesignTests */,
+				8CB7FE4F2B1F6C9A00712B23 /* MobileDesignApp */,
 				8CB7FE312B1F6BB200712B23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +82,7 @@
 			children = (
 				8CB7FE302B1F6BB200712B23 /* MobileDesign.framework */,
 				8CB7FE3A2B1F6BB200712B23 /* MobileDesignTests.xctest */,
+				8CB7FE4E2B1F6C9A00712B23 /* MobileDesignApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +102,26 @@
 				8CB7FE3F2B1F6BB200712B23 /* MobileDesignTests.swift */,
 			);
 			path = MobileDesignTests;
+			sourceTree = "<group>";
+		};
+		8CB7FE4F2B1F6C9A00712B23 /* MobileDesignApp */ = {
+			isa = PBXGroup;
+			children = (
+				8CB7FE502B1F6C9A00712B23 /* MobileDesignApp.swift */,
+				8CB7FE522B1F6C9A00712B23 /* ContentView.swift */,
+				8CB7FE542B1F6C9C00712B23 /* Assets.xcassets */,
+				8CB7FE562B1F6C9C00712B23 /* MobileDesignApp.entitlements */,
+				8CB7FE572B1F6C9C00712B23 /* Preview Content */,
+			);
+			path = MobileDesignApp;
+			sourceTree = "<group>";
+		};
+		8CB7FE572B1F6C9C00712B23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CB7FE582B1F6C9C00712B23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +174,23 @@
 			productReference = 8CB7FE3A2B1F6BB200712B23 /* MobileDesignTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8CB7FE4D2B1F6C9A00712B23 /* MobileDesignApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB7FE5A2B1F6C9C00712B23 /* Build configuration list for PBXNativeTarget "MobileDesignApp" */;
+			buildPhases = (
+				8CB7FE4A2B1F6C9A00712B23 /* Sources */,
+				8CB7FE4B2B1F6C9A00712B23 /* Frameworks */,
+				8CB7FE4C2B1F6C9A00712B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileDesignApp;
+			productName = MobileDesignApp;
+			productReference = 8CB7FE4E2B1F6C9A00712B23 /* MobileDesignApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +205,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					8CB7FE392B1F6BB200712B23 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8CB7FE4D2B1F6C9A00712B23 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -168,6 +227,7 @@
 			targets = (
 				8CB7FE2F2B1F6BB200712B23 /* MobileDesign */,
 				8CB7FE392B1F6BB200712B23 /* MobileDesignTests */,
+				8CB7FE4D2B1F6C9A00712B23 /* MobileDesignApp */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +247,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CB7FE4C2B1F6C9A00712B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB7FE592B1F6C9C00712B23 /* Preview Assets.xcassets in Resources */,
+				8CB7FE552B1F6C9C00712B23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -203,6 +272,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB7FE402B1F6BB200712B23 /* MobileDesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB7FE4A2B1F6C9A00712B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB7FE532B1F6C9A00712B23 /* ContentView.swift in Sources */,
+				8CB7FE512B1F6C9A00712B23 /* MobileDesignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +520,82 @@
 			};
 			name = Release;
 		};
+		8CB7FE5B2B1F6C9C00712B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobileDesignApp/MobileDesignApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileDesignApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R2T4HFUX6K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metaverse.MobileDesignApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB7FE5C2B1F6C9C00712B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobileDesignApp/MobileDesignApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileDesignApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R2T4HFUX6K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metaverse.MobileDesignApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -468,6 +622,15 @@
 			buildConfigurations = (
 				8CB7FE482B1F6BB200712B23 /* Debug */,
 				8CB7FE492B1F6BB200712B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB7FE5A2B1F6C9C00712B23 /* Build configuration list for PBXNativeTarget "MobileDesignApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB7FE5B2B1F6C9C00712B23 /* Debug */,
+				8CB7FE5C2B1F6C9C00712B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
